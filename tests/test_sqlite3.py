@@ -2,17 +2,17 @@
 
 from __future__ import division, print_function, absolute_import
 import pytest
-import sqlite3_paramstyle
+import sqlite3paramstyle
 
 
 @pytest.fixture
 def conn():
-    return sqlite3_paramstyle.connect(":memory:")
+    return sqlite3paramstyle.connect(":memory:")
 
 
 @pytest.fixture
 def cur():
-    return sqlite3_paramstyle.connect(":memory:").cursor()
+    return sqlite3paramstyle.connect(":memory:").cursor()
 
 
 def test_cursor_execute_without_param(cur):

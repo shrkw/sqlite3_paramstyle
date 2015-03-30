@@ -1,7 +1,7 @@
 from setuptools import setup
 
 __VERSION__ = '0.0.1'
-name = 'sqlite3_paramstyle'
+name = 'sqlite3paramstyle'
 
 short_description = 'Extended paramstyle for sqlite3 module'
 long_description = """\
@@ -31,8 +31,8 @@ Usage
 -----
 ::
 
-    import sqlite3_paramstyle
-    conn = sqlite3_paramstyle.connect(":memory:")
+    import {name}
+    conn = {name}.connect(":memory:")
 
 
 History

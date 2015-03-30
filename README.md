@@ -1,4 +1,4 @@
-# sqlite3_paramstyle
+# sqlite3paramstyle
 
 *Extended paramstyle for sqlite3 module*
 
@@ -14,8 +14,8 @@ Tested on 2.7.8 and 3.4.1
 
 # Usage
 
-    import sqlite3_paramstyle
-    conn = sqlite3_paramstyle.connect(":memory:")
+    import sqlite3paramstyle
+    conn = sqlite3paramstyle.connect(":memory:")
 
 # Requirements
 
