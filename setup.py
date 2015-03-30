@@ -26,6 +26,15 @@ or
 
    $ pip install {name}
 
+
+Usage
+-----
+::
+
+    import sqlite3_paramstyle
+    conn = sqlite3_paramstyle.connect(":memory:")
+
+
 History
 -------
 0.0.1 (2015-03-30)

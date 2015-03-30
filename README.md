@@ -11,6 +11,12 @@ https://www.python.org/dev/peps/pep-0249/#paramstyle
 
 Tested on 2.7.8 and 3.4.1
 
+
+# Usage
+
+    import sqlite3_paramstyle
+    conn = sqlite3_paramstyle.connect(":memory:")
+
 # Requirements
 
 * py.test

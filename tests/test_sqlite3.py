@@ -7,12 +7,12 @@ import sqlite3_paramstyle
 
 @pytest.fixture
 def conn():
-    return sqlite3_paramstyle.ExtendedParamstyleConnection(":memory:")
+    return sqlite3_paramstyle.connect(":memory:")
 
 
 @pytest.fixture
 def cur():
-    return sqlite3_paramstyle.ExtendedParamstyleConnection(":memory:").cursor()
+    return sqlite3_paramstyle.connect(":memory:").cursor()
 
 
 def test_cursor_execute_without_param(cur):
